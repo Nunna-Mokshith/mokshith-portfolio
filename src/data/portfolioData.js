@@ -137,6 +137,25 @@ export const projectsData = [
       "Programmed multi-threaded native C++ file-scanning backend tools and voice-native dialog speech-to-text modules."
     ],
     tags: ["LangGraph", "LangChain", "FastAPI", "WebSockets", "Electron.js", "C++", "MCP Server", "RAG"]
+  },
+  {
+    id: "evolution-edge",
+    title: "Evolution Edge: Self-Evolving Neural Bridge",
+    category: "PIML & GenAI",
+    date: "05/2026",
+    badge: "AMD ROCm & NPU Engine",
+    description: "Hybrid AI pipeline utilizing ROCm 6.x and ONNX Runtime to orchestrate low-latency inference on Ryzen AI NPUs with symbolic confidence-based escalation to AMD Instinct MI300X clusters.",
+    metrics: [
+      { label: "NPU Acceleration", value: "Ryzen AI & ONNX" },
+      { label: "Cloud Escalation", value: "AMD MI300X Cluster" },
+      { label: "On-Device Learning", value: "PEFT & Distillation" }
+    ],
+    highlights: [
+      "Engineered hybrid AI pipeline utilizing ROCm 6.x and ONNX Runtime for low-latency Ryzen AI NPU inference.",
+      "Implemented symbolic confidence-based escalation to AMD Instinct MI300X cloud-scale clusters.",
+      "Architected persistent on-device learning through knowledge distillation and PEFT-driven weight updates."
+    ],
+    tags: ["ROCm 6.x", "ONNX Runtime", "Ryzen AI NPU", "AMD MI300X", "PEFT", "Knowledge Distillation", "Edge AI"]
   }
 ];
 

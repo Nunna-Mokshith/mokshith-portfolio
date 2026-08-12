@@ -62,6 +62,13 @@ export const techStackData = [
         tools: ["LangGraph", "FastAPI", "WebSockets", "C++"]
       },
       {
+        name: "Evolution Edge (Neural Bridge)",
+        tier: "Edge AI & NPU Acceleration",
+        application: "Evolution Edge AI Pipeline",
+        description: "Low-latency inference on Ryzen AI NPUs with ONNX Runtime & ROCm 6.x, escalating to AMD MI300X clusters with PEFT & knowledge distillation.",
+        tools: ["ROCm 6.x", "ONNX Runtime", "Ryzen AI NPU", "PEFT"]
+      },
+      {
         name: "Imbalanced ML & Explainability",
         tier: "Industrial Diagnostics",
         application: "Industrial Predictive Maintenance",
