@@ -120,22 +120,23 @@ export const projectsData = [
     tags: ["OpenCV", "MediaPipe", "Python", "Spatial Math", "Pygame Audio", "Computer Vision"]
   },
   {
-    id: "sciml-dynamics",
-    title: "SciML Dynamics: Data-Driven Equation Discovery (POD, DMD & SINDy)",
-    category: "PIML & GenAI",
-    date: "02/2026",
-    badge: "Scientific ML",
-    description: "Data-driven reduced-order modeling and non-linear dynamic equation discovery for fluid flow fields using Proper Orthogonal Decomposition (POD), Dynamic Mode Decomposition (DMD), and SINDy.",
+    id: "wellsy-v1",
+    title: "Wellsy v1.0: Asynchronous Desktop AI Agent Engine",
+    category: "Agentic AI & Daemons",
+    date: "07/2026",
+    badge: "Desktop AI Engine",
+    description: "Offline-capable desktop AI assistant utilizing an asynchronous FastAPI WebSocket backend, Electron.js dashboard, LangGraph/LangChain ReAct state machine engine, and custom MCP tool server.",
     metrics: [
-      { label: "Dimension Drop", value: "95%+ Order Drop" },
-      { label: "Equation Discovery", value: "SINDy Non-Linear" },
-      { label: "Field Coherence", value: "POD & DMD Modes" }
+      { label: "Agent Engine", value: "LangGraph ReAct" },
+      { label: "Native Tools", value: "Multi-Threaded C++" },
+      { label: "Protocols", value: "MCP & Local RAG" }
     ],
     highlights: [
-      "Applied Proper Orthogonal Decomposition (POD) and Dynamic Mode Decomposition (DMD) to extract spatiotemporal coherent fluid structures.",
-      "Leveraged SINDy (Sparse Identification of Nonlinear Dynamics) to uncover governing differential equations directly from flow field snapshots."
+      "Engineered a native, fully offline-capable personal AI desktop assistant with FastAPI WebSockets & Electron.js.",
+      "Developed multi-node LangGraph ReAct state machine with custom MCP server for standardized tool execution.",
+      "Programmed multi-threaded native C++ file-scanning backend tools and voice-native dialog speech-to-text modules."
     ],
-    tags: ["SciML", "SINDy", "POD / DMD", "PyTorch", "Python SciPy", "Non-linear Dynamics"]
+    tags: ["LangGraph", "LangChain", "FastAPI", "WebSockets", "Electron.js", "C++", "MCP Server", "RAG"]
   }
 ];
 

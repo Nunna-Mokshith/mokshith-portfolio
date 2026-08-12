@@ -55,11 +55,11 @@ export const techStackData = [
         tools: ["GNNs", "Gibbs Loss", "RDKit Cascade"]
       },
       {
-        name: "Scientific ML (POD, DMD & SINDy)",
-        tier: "Reduced-Order Modeling",
-        application: "SciML Dynamic Discovery",
-        description: "Spatiotemporal decomposition and sparse non-linear differential equation discovery.",
-        tools: ["SINDy", "POD / DMD", "PySciPy"]
+        name: "Asynchronous Agent Engines (LangGraph)",
+        tier: "Desktop AI Engine",
+        application: "Wellsy v1.0 Agent Architecture",
+        description: "Multi-node state machine engines, Reasoning and Acting (ReAct) loops, and multi-threaded native C++ file tools.",
+        tools: ["LangGraph", "FastAPI", "WebSockets", "C++"]
       },
       {
         name: "Imbalanced ML & Explainability",
